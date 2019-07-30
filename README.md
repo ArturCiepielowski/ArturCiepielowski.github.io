@@ -1,1 +1,0 @@
-# ArturCiepielowski.github.io
