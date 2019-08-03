@@ -13,12 +13,73 @@ html {
   box-sizing: inherit;
 }
 
+
+a{
+  color:#0593FB;
+
+}
+
+a:visited{
+
+  color:#0593FB;
+
+}
+
 body {
   margin-top:64px;
   
 }
 
+.contactMe{
 
+  height: 562px;
+  width:1440px;
+  display: grid;
+  grid-template-rows: 350px 100px 100px;
+
+  &__container{
+
+    width:580px;
+    height:160px;
+    margin-left:112px;
+    padding-top:128px;
+  
+
+  }
+
+  &__header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+
+  }
+
+  &__description{
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+
+  &__imgContainer{
+    margin-left:112px;
+
+  }
+}
+
+.footer__email{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #0593FB;
+    margin-left:112px;
+}
 
 li.checkCircleGreen{
   
@@ -96,9 +157,10 @@ li.checkCircleBlue{
 &__portfolio{
 
   max-width: 1408px;
-  height:3782px;
+  height:2104px;
   margin:auto;
   background-color: white;
+  
 
 }
 
@@ -188,7 +250,12 @@ li.checkCircleBlue{
 
 }
 
-.upperline__green{
+.upperline{
+
+  width: 80px;
+  height: 4px;
+
+&__green{
 
   width: 80px;
   height: 4px;
@@ -196,7 +263,7 @@ li.checkCircleBlue{
 
 }
 
-.upperline__purple{
+&__purple{
 
   width: 80px;
   height: 4px;
@@ -204,11 +271,20 @@ li.checkCircleBlue{
 
 }
 
-.upperline__blue{
+&__blue{
 
   width: 80px;
   height: 4px;
   background-color: #2251CC;
+
+}
+
+&__seaBlue{
+  width: 80px;
+  height: 4px;
+  background-color: #0593FB;
+
+}
 
 }
 
@@ -298,3 +374,40 @@ li.checkCircleBlue{
 
   }
  }
+
+.projectsSection {
+  width: 1408px;
+  height: 1116px;
+  background-color: #F5F7FA;
+  margin:auto;
+  padding-top:128px;
+  
+ &__article{
+
+  width:580px;
+  height:172px;
+  margin-left:112px;
+ }
+
+ &__description{
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color:#52606D;
+ }
+  
+
+  &__header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #171F3F;
+    margin-top:0px;
+
+  }
+
+}
