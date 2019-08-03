@@ -316,8 +316,49 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
+a {
+  color: #0593FB; }
+
+a:visited {
+  color: #0593FB; }
+
 body {
   margin-top: 64px; }
+
+.contactMe {
+  height: 562px;
+  width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 350px 100px 100px;
+  grid-template-rows: 350px 100px 100px; }
+  .contactMe__container {
+    width: 580px;
+    height: 160px;
+    margin-left: 112px;
+    padding-top: 128px; }
+  .contactMe__header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF; }
+  .contactMe__description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF; }
+  .contactMe__imgContainer {
+    margin-left: 112px; }
+
+.footer__email {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #0593FB;
+  margin-left: 112px; }
 
 li.checkCircleGreen {
   list-style-image: url(../assets/img/check-circle-green.svg);
@@ -366,7 +407,7 @@ li.checkCircleBlue {
   background-color: #121249; }
   .main__portfolio {
     max-width: 1408px;
-    height: 3782px;
+    height: 2104px;
     margin: auto;
     background-color: white; }
 
@@ -423,20 +464,25 @@ li.checkCircleBlue {
     -ms-grid-row-span: 2;
     grid-row: 5 / span 2; }
 
-.upperline__green {
+.upperline {
   width: 80px;
-  height: 4px;
-  background-color: #06C847; }
-
-.upperline__purple {
-  width: 80px;
-  height: 4px;
-  background-color: #653CAD; }
-
-.upperline__blue {
-  width: 80px;
-  height: 4px;
-  background-color: #2251CC; }
+  height: 4px; }
+  .upperline__green {
+    width: 80px;
+    height: 4px;
+    background-color: #06C847; }
+  .upperline__purple {
+    width: 80px;
+    height: 4px;
+    background-color: #653CAD; }
+  .upperline__blue {
+    width: 80px;
+    height: 4px;
+    background-color: #2251CC; }
+  .upperline__seaBlue {
+    width: 80px;
+    height: 4px;
+    background-color: #0593FB; }
 
 .workingKnowledge {
   display: -webkit-box;
@@ -522,5 +568,30 @@ li.checkCircleBlue {
     list-style-type: none;
     padding-right: 90px;
     margin: 0; }
+
+.projectsSection {
+  width: 1408px;
+  height: 1116px;
+  background-color: #F5F7FA;
+  margin: auto;
+  padding-top: 128px; }
+  .projectsSection__article {
+    width: 580px;
+    height: 172px;
+    margin-left: 112px; }
+  .projectsSection__description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #52606D; }
+  .projectsSection__header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #171F3F;
+    margin-top: 0px; }
 
 /*# sourceMappingURL=main.css.map */
