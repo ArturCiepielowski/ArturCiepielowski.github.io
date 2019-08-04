@@ -323,7 +323,32 @@ a:visited {
   color: #0593FB; }
 
 body {
-  margin-top: 64px; }
+  margin-top: 0px; }
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px; }
+
+.button__loadMore {
+  width: 256px;
+  height: 64px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: black;
+  border: 2px solid #121249;
+  -webkit-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s; }
+
+.button__loadMore:hover {
+  background-color: #121249;
+  color: white; }
 
 .contactMe {
   height: 562px;
@@ -375,6 +400,52 @@ li.checkCircleBlue {
   padding-left: 12px;
   margin-top: 10px; }
 
+.list {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; }
+  .list__description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px; }
+  .list__item {
+    background: #5a5aa0;
+    width: 580px;
+    height: 300px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+            box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+    padding: 0;
+    margin: 8px;
+    -ms-grid-column-align: center;
+        justify-self: center; }
+  .list__link {
+    color: #171F3F;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px; }
+
+.list__link:hover {
+  color: navy; }
+
+.list__link:visited {
+  color: #171F3F; }
+
+.listContainer {
+  margin-left: 48px;
+  margin-top: 48px; }
+
 .header {
   width: 781px;
   height: 546px;
@@ -402,7 +473,7 @@ li.checkCircleBlue {
   max-width: 1440px;
   height: 3814px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 0px;
   padding-top: 16px;
   background-color: #121249; }
   .main__portfolio {
@@ -593,5 +664,8 @@ li.checkCircleBlue {
     font-size: 36px;
     color: #171F3F;
     margin-top: 0px; }
+
+.projectList {
+  margin-top: 64px; }
 
 /*# sourceMappingURL=main.css.map */
