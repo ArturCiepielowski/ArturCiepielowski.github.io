@@ -100,6 +100,11 @@ body {
   }
 }
 
+.demoImage{
+
+  margin-right: 8px;
+}
+
 .footer__email{
 
     font-family: 'Poppins', sans-serif;
@@ -107,6 +112,17 @@ body {
     text-decoration: underline;
     color: #0593FB;
     margin-left:112px;
+}
+
+.githubImage{
+  margin-right: 8px;
+}
+
+.githubLink{
+
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
 }
 
 li.checkCircleGreen{
@@ -172,6 +188,7 @@ li.checkCircleBlue{
     font-weight: 600;
     font-size: 20px;
     line-height: 36px;
+    margin-top:8px;
   }
 
 }
@@ -192,6 +209,56 @@ li.checkCircleBlue{
   margin-top:48px;
 }
 
+.linkContainer{
+
+  width:580px;
+  height:64px;
+  margin-top:42px;
+  background-color:#F5F7FA;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__demo{
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color:#0593FB;
+    border-right-color: #CBD2D9;
+   
+   
+  }
+
+  &__Github{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin-right:48px;
+    color:#0593FB;
+    
+  }
+
+  &__Separator{
+
+
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+
+}
+
+.linkDemo{
+
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
 
 .header{
 
@@ -504,4 +571,28 @@ li.checkCircleBlue{
 .projectList{
 
   margin-top:64px;
+}
+
+@media(max-width: 640px){
+
+  .header{
+
+    margin-left: 16px;
+    width:320px;
+  }
+
+  .mySkills{
+
+    margin-left:16px;
+  }
+
+  html{
+
+    background-color:  white;
+  }
+
+  .header__description{
+
+    width:300px;
+  }
 }
