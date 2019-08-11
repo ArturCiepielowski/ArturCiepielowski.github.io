@@ -378,12 +378,28 @@ body {
   .contactMe__imgContainer {
     margin-left: 112px; }
 
+.demoImage {
+  margin-right: 8px; }
+
 .footer__email {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   text-decoration: underline;
   color: #0593FB;
   margin-left: 112px; }
+
+.githubImage {
+  margin-right: 8px; }
+
+.githubLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none; }
 
 li.checkCircleGreen {
   list-style-image: url(../assets/img/check-circle-green.svg);
@@ -434,7 +450,8 @@ li.checkCircleBlue {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 36px; }
+    line-height: 36px;
+    margin-top: 8px; }
 
 .list__link:hover {
   color: navy; }
@@ -445,6 +462,48 @@ li.checkCircleBlue {
 .listContainer {
   margin-left: 48px;
   margin-top: 48px; }
+
+.linkContainer {
+  width: 580px;
+  height: 64px;
+  margin-top: 42px;
+  background-color: #F5F7FA;
+  border-radius: 0px 0px 8px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .linkContainer__demo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #0593FB;
+    border-right-color: #CBD2D9; }
+  .linkContainer__Github {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin-right: 48px;
+    color: #0593FB; }
+  .linkContainer__Separator {
+    margin-left: 24px;
+    margin-right: 24px; }
+
+.linkDemo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none; }
 
 .header {
   width: 781px;
@@ -667,5 +726,16 @@ li.checkCircleBlue {
 
 .projectList {
   margin-top: 64px; }
+
+@media (max-width: 640px) {
+  .header {
+    margin-left: 16px;
+    width: 320px; }
+  .mySkills {
+    margin-left: 16px; }
+  html {
+    background-color: white; }
+  .header__description {
+    width: 300px; } }
 
 /*# sourceMappingURL=main.css.map */
